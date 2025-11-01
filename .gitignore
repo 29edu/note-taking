@@ -1,0 +1,86 @@
+# ==========================
+# Node & Vite Common Ignores
+# ==========================
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Environment files (never push credentials)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+.tmp/
+.temp/
+.cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Logs
+logs
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Local database / data files
+*.sqlite
+*.db
+*.pdb
+
+# Other temporary or generated files
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# ==========================
+# Frontend-specific (Vite/React)
+# ==========================
+# Static build
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+
+# ==========================
+# Backend-specific (Node/Express)
+# ==========================
+backend/node_modules/
+backend/logs/
+backend/temp/
+backend/uploads/
+backend/.env
+
+# ==========================
+# System Files
+# ==========================
+*.swp
+*.bak
+*.tmp
+*.old
